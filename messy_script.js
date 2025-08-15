@@ -15,9 +15,9 @@ const	logger	 =  (msg) => {
   }
 };
 
-const   counter   =   makeCounter(  5	);
+const   counterVariable   =   makeCounter(  5	);
 for (let i=0; i<3; 	 i++){
   logger( `value: ${counter()}` );
 }
 
-export	 default { counter, logger };
+export	 default { counterVariable, logger };
